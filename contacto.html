@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - ISTY</title>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Instituto Superior Tecnológico Yaruquí</h1>
+    <p>Página de contacto oficial para estudiantes, docentes y comunidad.</p>
+    <p><strong>Mailyn Preciado - Carrera de Marketing</strong></p>
+    <nav>
+      <a href="#departamentos">Departamentos</a> |
+      <a href="#contacto">Formulario</a> |
+      <a href="#tabla">Información</a>
+    </nav>
+  </header>
+
+  <!-- Sección de departamentos -->
+  <section id="departamentos">
+    <h2>Departamentos disponibles</h2>
+    <ul>
+      <li>Admisiones</li>
+      <li>Secretaría Académica</li>
+      <li>Bienestar Estudiantil</li>
+    </ul>
+
+    <h2>Enlaces de interés</h2>
+    <ol>
+      <li><a href="https://www.isty.edu.ec/" target="_blank">Página principal ISTY</a></li>
+      <li><a href="https://www.isty.edu.ec/carreras/" target="_blank">Carreras</a></li>
+      <li><a href="https://outlook.office.com/mail/" target="_blank">Correo académico</a></li>
+    </ol>
+
+    <h2>Ubicación del ISTY</h2>
+    <p>Aquí puedes ver nuestro campus en Quito:</p>
+    <img src="https://media.licdn.com/dms/image/v2/D4E0BAQFa-RV45ui3dw/company-logo_200_200/company-logo_200_200/0/1684790285856?e=2147483647&v=beta&t=51NiPOnTIJG-0Rdy09CsFVf02Xh9BI00ajTfkhjIxh4" alt="Logotipo ISTY" width="200">
+    <img src="https://www.isty.edu.ec/wp-content/uploads/2017/11/314887943_124899187042740_1995452970559358381_n.jpg" alt="Campus ISTY" width="300">
+  </section>
+
+  <!-- Sección de formulario -->
+  <section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre de contacto</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="telefono">Teléfono:</label><br>
+      <input type="tel" id="telefono" name="telefono"><br><br>
+
+      <label for="asunto">Asunto:</label><br>
+      <input type="text" id="asunto" name="asunto"><br><br>
+
+      <label for="departamento">Departamento de contacto:</label><br>
+      <select id="departamento" name="departamento">
+        <option value="admisiones">Admisiones</option>
+        <option value="secretaria">Secretaría Académica</option>
+        <option value="bienestar">Bienestar Estudiantil</option>
+      </select><br><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!-- Sección de tabla -->
+  <section id="tabla">
+    <h2>Información de contacto</h2>
+    <table border="1">
+      <tr>
+        <th>Departamento</th>
+        <th>Correo</th>
+        <th>Teléfono</th>
+      </tr>
+      <tr>
+        <td>Admisiones</td>
+        <td>admision@isty.edu.ec</td>
+        <td>(+593) 98 396 1156</td>
+      </tr>
+      <tr>
+        <td>Secretaría</td>
+        <td>secretaria@isty.edu.ec</td>
+        <td>(+593) 98 396 1156</td>
+      </tr>
+      <tr>
+        <td>Soporte Técnico</td>
+        <td>mailyn.preciado@isty.edu.ec</td>
+        <td>0967693126</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Instituto Yaruquí - Página educativa para prácticas HTML-Página Web por Mailyn Preciado</p>
+  </footer>
+
+</body>
+</html>
