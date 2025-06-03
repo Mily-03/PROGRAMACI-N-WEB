@@ -1,0 +1,27 @@
+.info-personal {
+   background-color: rgb(185, 151, 216);
+   font-family: sans-serif;
+}
+
+.imagen-personal {
+   background-color: rgb(255, 255, 255);
+   justify-content: center;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.caracteristicas-personales {
+   background-color: rgb(146, 146, 208);
+   font-family: cursive;
+}
+
+.info-personal {
+   background-color: rgb(170, 120, 218);
+   text-align: center;
+}
+#valores_personales {
+   background-color: rgb(146, 146, 208);
+   font-family: cursive;
+   text-align: right;
+   color: white;
+}
