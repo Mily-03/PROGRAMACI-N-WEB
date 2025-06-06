@@ -1,0 +1,15 @@
+p,h2,h3 {
+    font-family: Georgia
+}
+#productos {
+    margin: 50px;
+    padding: 20px;
+}
+.locales {
+    margin: 50px;
+    padding: 20px;
+}
+.parrafos {
+    margin: 50px;
+    padding: 20px;
+}
