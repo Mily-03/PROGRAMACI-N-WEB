@@ -4,6 +4,8 @@ p,h2,h3 {
 #productos {
     margin: 50px;
     padding: 20px;
+    background-color: rgb(20, 50, 50);
+    opacity: 0,5;
 }
 .locales {
     margin: 50px;
@@ -12,4 +14,80 @@ p,h2,h3 {
 .parrafos {
     margin: 50px;
     padding: 20px;
+}
+#productos {
+    background: rgb(20, 30, 40, 0.5);
+}
+body {
+    background-image: url(https://www.dynamics.com.co/wp-content/uploads/2020/07/6viveres2-1024x614.jpg); 
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 200px auto;
+}
+.locales h3 {
+    border-style: dotted;
+    border-style: dashed;
+    border-style: solid;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+}
+p.uno {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: blanchedalmond;
+    border-radius: 2px;
+}
+p.dos {
+    border-style: double groove;
+    border-width: 0.5px;
+    border-color: darkcyan;
+    border-radius: 2px;
+}
+p.tres {
+    border-style: dashed dotted solid ridge;
+    border-width: 0.5px 1px 2px 0.5px;
+    border-color: blueviolet;
+    border-radius: 2px;
+}
+p.cuatro {
+    border-style: inset outset;
+    border-width: 1px 2px;
+    border-color: dodgerblue;
+    border-radius: 2px;
+}
+p.margin {
+    background-color: brown;
+    margin: 5px 5px 5px 5px;
+}
+p.margin_dos {
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+p.padding {
+    background-color: green;
+    padding: 5px 5px 5px 5px;
+}
+p.padding_dos {
+    background-color: lightgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tamaño {
+    background-color: orange;
+    height: 100px;
+    width: 300px;
+}
+.tamaño_dos {
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
 }
